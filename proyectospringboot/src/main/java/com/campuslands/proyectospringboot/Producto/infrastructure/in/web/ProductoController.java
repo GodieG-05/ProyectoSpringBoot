@@ -1,9 +1,9 @@
-package com.campuslands.proyectospringboot.Producto.infrastructure.adapters.input;
+package com.campuslands.proyectospringboot.Producto.infrastructure.in.web;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.campuslands.proyectospringboot.Producto.app.services.ProductoService;
+import com.campuslands.proyectospringboot.Producto.application.services.ProductoService;
 import com.campuslands.proyectospringboot.Producto.domain.entities.Producto;
 
 import java.util.List;

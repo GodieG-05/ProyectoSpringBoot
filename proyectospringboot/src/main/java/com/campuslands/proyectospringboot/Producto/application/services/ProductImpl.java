@@ -1,12 +1,13 @@
-package com.campuslands.proyectospringboot.Producto.app.services;
+package com.campuslands.proyectospringboot.Producto.application.services;
 
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import com.campuslands.proyectospringboot.Producto.domain.repositories.ProductRepository;
+
 import com.campuslands.proyectospringboot.Producto.domain.entities.Producto;
+import com.campuslands.proyectospringboot.Producto.infrastructure.out.persistence.ProductRepository;
 
 @Service
 public class ProductImpl implements ProductoService{

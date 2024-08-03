@@ -1,4 +1,4 @@
-package com.campuslands.proyectospringboot.Producto.app.services;
+package com.campuslands.proyectospringboot.Producto.application.services;
 
 import java.util.List;
 import java.util.Optional;  
